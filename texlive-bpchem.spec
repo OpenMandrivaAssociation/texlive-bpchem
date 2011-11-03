@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/bpchem
+# catalog-date 2006-12-01 14:16:52 +0100
+# catalog-license lppl
+# catalog-version v1.06
 Name:		texlive-bpchem
 Version:	v1.06
 Release:	1
@@ -43,6 +49,7 @@ reference to labelled compounds.
 #- source
 %doc %{_texmfdistdir}/source/latex/bpchem/bpchem.dtx
 %doc %{_texmfdistdir}/source/latex/bpchem/bpchem.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ reference to labelled compounds.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
