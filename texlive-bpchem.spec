@@ -6,7 +6,7 @@
 # catalog-version v1.06
 Name:		texlive-bpchem
 Version:	v1.06
-Release:	9
+Release:	10
 Summary:	Typeset chemical names, formulae, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
