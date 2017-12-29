@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/bpchem
-# catalog-date 2006-12-01 14:16:52 +0100
-# catalog-license lppl
-# catalog-version v1.06
 Name:		texlive-bpchem
-Version:	v1.06
-Release:	10
+Version:	1.1
+Release:	1
 Summary:	Typeset chemical names, formulae, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
@@ -37,6 +31,7 @@ reference to labelled compounds.
 %files
 %{_texmfdistdir}/tex/latex/bpchem/bpchem.sty
 %doc %{_texmfdistdir}/doc/latex/bpchem/bpchem.pdf
+%doc %{_texmfdistdir}/doc/latex/bpchem/README.md
 #- source
 %doc %{_texmfdistdir}/source/latex/bpchem/bpchem.dtx
 %doc %{_texmfdistdir}/source/latex/bpchem/bpchem.ins
@@ -50,18 +45,3 @@ reference to labelled compounds.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.06-2
-+ Revision: 749881
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.06-1
-+ Revision: 717978
-- texlive-bpchem
-- texlive-bpchem
-- texlive-bpchem
-- texlive-bpchem
-- texlive-bpchem
-
