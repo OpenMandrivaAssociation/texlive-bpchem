@@ -5,9 +5,9 @@ Summary:	Typeset chemical names, formulae, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.r45120.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.doc.r45120.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.source.r45120.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
