@@ -1,6 +1,6 @@
 Name:		texlive-bpchem
 Version:	45120
-Release:	1
+Release:	2
 Summary:	Typeset chemical names, formulae, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
