@@ -3,7 +3,7 @@ Version:	45120
 Release:	2
 Summary:	Typeset chemical names, formulae, etc
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bpchem
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bpchem.doc.r%{version}.tar.xz
